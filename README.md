@@ -4,21 +4,18 @@
 
 ## 📝 Tanıtım
 
-**LanguageWork**, çoklu dil desteği ve dil dosyası yönetimi için geliştirilmiş, esnek yapıya sahip bir .NET projesidir. Uygulamalarda kullanılan metinlerin farklı dillerde yönetilmesini ve çevrilmesini kolaylaştırır. Özellikle çok dilli (multilingual) yazılım projelerinde, dil paketlerinin merkezi olarak kontrol edilmesini ve dinamik olarak güncellenmesini sağlar.
+**LanguageWork**, çoklu dil desteği ve dil dosyası yönetimi için geliştirilmiş, esnek yapıya sahip bir .NET projesidir. Uygulamalarda kullanılan metinlerin farklı dillerde yönetilmesini ve çevrilmesini kolaylaştırır. Özellikle çok dilli yazılım projelerinde dil paketlerinin merkezi olarak kontrol edilmesini ve dinamik olarak güncellenmesini sağlar.
 
 ---
 
 ## 🚀 Özellikler
 
-- 🌍 Çoklu dil desteği (tr, en, de, ve diğerleri)
+- 🌍 Çoklu dil desteği (İngilizce ve İspanyolca)
 - 🏷️ Anahtar-değer (key-value) tabanlı dil dosyası yönetimi
-- 🔄 Dinamik dil değiştirme (runtime switch)
-- 🗂️ JSON/XML/Excel tabanlı dil kaynak dosyaları ile çalışma
-- 📦 Yeni dil ekleme ve mevcut dilleri güncelleme
-- 📝 Merkezi dil yönetim paneli (varsa)
-- 🚦 Eksik çevirileri tespit ve raporlama
+- 🔄 Dinamik dil değiştirme (çalışma zamanında)
+- 🗂️ XML tabanlı dil kaynak dosyaları ile çalışma
+- 📦 Yeni dil ekleme ve mevcut dilleri güncelleme (manuel olarak)
 - ⚙️ Otomatik fallback (bulunamayan anahtarlar için varsayılan dil)
-- 🔒 Güvenli ve hızlı erişim için önbellekleme (optional)
 
 ---
 
@@ -44,8 +41,8 @@ LanguageWork/
 ├── obj/              # Geçici derleme dosyaları
 ├── packages/         # NuGet paketleri
 ├── Properties/       # Assembly ve ayar dosyaları
-├── Classes/          # (Muhtemelen) Dil yönetimi ve yardımcı sınıflar
-├── Forms/            # (Muhtemelen) Windows Forms arayüzleri
+├── Classes/          # Dil yönetimi ve yardımcı sınıflar
+├── Forms/            # Windows Forms arayüzleri
 ```
 > Not: Listede yalnızca ilk 10+ dosya veya klasör gösterilmektedir. [Detayı görüntüle](https://github.com/dogukankosan/LanguageWork/tree/main)
 
@@ -56,7 +53,7 @@ LanguageWork/
 1. Projeyi klonlayın veya indirin.
 2. `App.config` veya ilgili ayar dosyalarını düzenleyin.
 3. Visual Studio ile projeyi açıp çalıştırın.
-4. Uygulama üzerinden veya kod ile dil dosyalarını yönetin, yeni diller ekleyin ve çevirileri test edin.
+4. Uygulama üzerinden veya kod ile dil dosyalarını yönetin, İngilizce ve İspanyolca dillerinde çevirileri test edin.
 
 ---
 
