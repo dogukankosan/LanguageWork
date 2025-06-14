@@ -22,41 +22,41 @@
 
 ---
 
-## 🏗️ Teknik Altyapı
+## 🏗️ Gerçek Proje Yapısı
 
-- **Backend:** .NET, C#
-- **Veri Formatları:** JSON, XML, (isteğe bağlı Excel/CSV)
-- **Yapı:**  
-  - `Language/` : Dil dosyaları ve yönetim sınıfları
-  - `Helpers/` : Yardımcı fonksiyonlar
-  - `Models/` : Dil ve çeviri modelleri
-  - `Config/` : Ayar ve konfigürasyon dosyaları
-  - `UI/` : (Varsa) Yönetim veya örnek arayüzler
-
----
-
-## 📂 Klasör Yapısı
+Aşağıda, projenin gerçek dosya ve klasör yapısının bir özeti verilmiştir. Daha fazlasını incelemek için [buraya tıklayın](https://github.com/dogukankosan/LanguageWork/tree/main).
 
 ```
 LanguageWork/
-├── Language/     # Dil yönetimi ve dosyaları
-├── Models/       # Veri modelleri
-├── Helpers/      # Yardımcı fonksiyonlar
-├── Config/       # Ayar dosyaları (settings.json, config.xml vs)
-├── UI/           # Yönetim/örnek arayüz
-├── Program.cs    # Uygulama girişi
-└── ...
+│
+├── .gitattributes
+├── App.config
+├── LanguageWork.csproj
+├── LanguageWork.csproj.user
+├── LanguageWork.sln
+├── Program.cs
+├── README.md
+├── icons8_brick.ico
+├── packages.config
+│
+├── .vs/              # Visual Studio dizini
+├── bin/              # Derlenmiş çıktı dosyaları
+├── obj/              # Geçici derleme dosyaları
+├── packages/         # NuGet paketleri
+├── Properties/       # Assembly ve ayar dosyaları
+├── Classes/          # (Muhtemelen) Dil yönetimi ve yardımcı sınıflar
+├── Forms/            # (Muhtemelen) Windows Forms arayüzleri
 ```
+> Not: Listede yalnızca ilk 10+ dosya veya klasör gösterilmektedir. [Detayı görüntüle](https://github.com/dogukankosan/LanguageWork/tree/main)
 
 ---
 
 ## ⚙️ Kurulum & Kullanım
 
 1. Projeyi klonlayın veya indirin.
-2. `Config/` klasörüne dil dosyalarınızı (JSON, XML) yerleştirin.
-3. Gerekirse `settings.json` veya `config.xml` dosyasından varsayılan dili ve yolları düzenleyin.
-4. Projeyi Visual Studio ile açıp çalıştırın.
-5. Koddan veya arayüzden (varsa) dili değiştirip çevirileri test edin.
+2. `App.config` veya ilgili ayar dosyalarını düzenleyin.
+3. Visual Studio ile projeyi açıp çalıştırın.
+4. Uygulama üzerinden veya kod ile dil dosyalarını yönetin, yeni diller ekleyin ve çevirileri test edin.
 
 ---
 
